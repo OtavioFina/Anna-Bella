@@ -1,0 +1,11 @@
+body {
+    background-image: url('/imagens/fundo.png') ;
+}
+
+#hiperlink {
+    margin: 20px 0;
+}
+
+#hiperlink a {
+    text-decoration: none;
+}
