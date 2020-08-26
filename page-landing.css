@@ -1,11 +1,35 @@
 body {
     background-image: url('/imagens/fundo.png') ;
+    width: 900px;
 }
 
 #hiperlink {
-    margin: 20px 0;
+    padding: 30px 10px;
+    background: #D3D3D3;
 }
 
-#hiperlink a {
+#hiperlink * {
     text-decoration: none;
+    color: #5F9EA0;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.caixa-de-texto {
+    background: white;
+    padding: 10px 10px 13px;
+}
+
+.caixa-de-texto h3 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: grey;
+    font-weight: normal;
+}
+
+.caixa-de-texto p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#direito {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
 }
